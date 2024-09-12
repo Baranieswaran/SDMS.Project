@@ -1,0 +1,145 @@
+<html>
+<head><title>HykinSOFTAcademy</title><head>
+
+	
+		<link rel="stylesheet" href="Home.css">
+				
+<body>
+	<div class="header">
+		<h1 class="logo">HYKIN<span>Software Acadamy.</span></h1>
+		
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#" id="popupbutton">Report</a></li>
+			<li><a href="#">Enquire<i class="fa fa-caret-down"></i></a>
+			<div class="dropdown">
+				<div class="dropdown-content">
+				<ul>
+					<li><a href="OldEnquires.html">Old Enquires</a></li>
+					<li><a href="NewEnquires.html">New Enquires</a></li>
+				</ul>
+				</div>
+			</div>
+			</li>
+			<li><a href="#" id="popupbutton3">Fees</a></li>
+			<li><a href="#" id="popupbutton2" >Contact</a></li>
+		</ul>			
+	</div>
+	
+	<div class="overlay"></div>	
+  	   <div class="popupbox">
+		<h2> Search Student Reports </h2>
+		<form name="f1">
+		  <input type="text" placeholder="Student Name" name="t1">
+		  <input type="text" placeholder="Student RollNo" name="t2">
+		  <button onclick="ss()">SEARCH</button>
+		  <button id="cn-pop">CANCEL</button>
+		</form>	
+	   </div>
+	
+	<div class="popupbox2">
+		<div class="contact">
+			<center>
+				<h1>CONTACT</h1>
+				<h3>8526499291</h3>
+				<br>
+				<br>
+				<h1>E-MAIL</h1>
+				<h3>hykinsoft@gmail.com</h3>
+				<br>
+				<br>
+				<h1>ADDRESS</h1>
+				<h3>NO:75/210,1st Floor,Arcot Road,Porur,Chennai-600116.</h3>
+				<br>
+				<button id="cn-pop2">CLOSE</button>
+			</center>				
+		</div>
+	</div>
+	
+	<div class="popupbox3">
+		<h2>Search Student</h2>
+		<form name="f2">
+		  <input type="text" placeholder="Student Name" name="t1">
+		  <input type="text" placeholder="Student RollNo" name="t2">
+		  <button onclick="sd()">SEARCH</button>
+		  <button id="cn-pop3">CANCEL</button>
+		</form>	
+	</div>
+</body>
+
+<script>
+		var puo=document.querySelector(".overlay")
+		var pub=document.querySelector(".popupbox")
+	       	var pubt=document.getElementById("popupbutton")
+
+		pubt.addEventListener("click",function(){
+
+			puo.style.display="block"
+			pub.style.display="block"	
+		})
+
+		var cb=document.getElementById("cn-pop")	
+
+		cb.addEventListener("click",function(event){
+		event.preventDefault()
+
+		puo.style.display="none"
+		pub.style.display="none"
+				
+		})	
+		
+		var pub2=document.querySelector(".popupbox2")
+		var pubt2=document.getElementById("popupbutton2")
+
+		pubt2.addEventListener("click",function(){
+
+			puo.style.display="block"
+			pub2.style.display="block"	
+		})
+
+		var cb=document.getElementById("cn-pop2")	
+
+		cb.addEventListener("click",function(event){
+		event.preventDefault()
+
+		puo.style.display="none"
+		pub2.style.display="none"
+				
+		})	
+
+		var pub3=document.querySelector(".popupbox3")
+		var pubt3=document.getElementById("popupbutton3")
+
+		pubt3.addEventListener("click",function(){
+
+			puo.style.display="block"
+			pub3.style.display="block"	
+		})
+
+		var cb=document.getElementById("cn-pop3")	
+
+		cb.addEventListener("click",function(event){
+		event.preventDefault()
+
+		puo.style.display="none"
+		pub3.style.display="none"
+				
+		})
+		
+		function ss()
+		{		
+		f1.action="http://desktop-0vjq3va:8080/examples/servlets/servlet/Samp8";
+		f1.method="post";
+		f1.submit();
+		}
+
+		function sd()
+		{		
+		f2.action="http://desktop-0vjq3va:8080/examples/servlets/servlet/Samp6";
+		f2.method="post";
+		f2.submit();
+		}
+			
+</script>
+
+</html>

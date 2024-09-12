@@ -1,0 +1,93 @@
+<html>
+
+<head><title>Regiter</title></head>
+
+	<link rel="stylesheet" href="Project1.css">
+
+	<script>
+
+	function ss()
+	{
+		if(f1.t8.value==f1.t9.value)
+		{
+		f1.action="http://desktop-0vjq3va:8080/examples/servlets/servlet/Samp";
+		f1.method="post";
+		f1.submit();
+		}
+		else
+		{
+		alert("Password & Retype Password is Incorrect");	
+		}
+	}
+
+
+	</script>
+
+<body>
+
+	<div class="header">
+	  <h1>Hykin Software Acadamy</h1>
+	</div>
+	
+	<div class="head">
+	<h2>Register Form</h2>
+	</div>
+	<center>	
+	<div class="container2">
+
+
+	<form name="f1">
+	
+	<table class="tab">
+		<tr>
+			<td><b>Name</b></td><td><input type="text" placeholder="Enter the name" class="tex" name="t1"></td>
+		</tr>
+		<tr>
+			<td><b>Father Name</b></td><td><input type="text" placeholder="Enter the name" class="tex" name="t2"></td>
+		</tr>
+		<tr>
+			<td><b>Age</b></td><td><input type="number" placeholder="Enter the age" class="tex" name="t3"></td>
+		</tr>
+		<tr>
+			<td><b>DOB</b></td><td><input type="date" class="tex" name="t4"></td>
+		</tr>
+		<tr>
+			<td><b>Gender</b></td><td><input type="radio" value="Male" class="tex" name="t5">Male
+				<input type="radio" value="Female" class="tex" name="t5">Female</td>
+		</tr>
+		<tr>
+			<td><b>Mobile No</b></td><td><input type="number" placeholder="Enter the Mo.No" class="tex" name="t6"></td>
+		</tr>
+		<tr>
+			<td><b>Course</b></td>
+			<td>
+				<select class="tex" name="t7">
+					<option value="Java">Java</option>
+					<option value="Python">Python</option>
+					<option value="C,C++">C,C++</option>
+					<option value="MS Office">MS Office</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td><b>Password</b></td><td><input type="password" class="pass" name="t8"></td>
+		</tr>
+		<tr>
+			<td><b>ReEnter-Password</b></td><td><input type="password" class="pass" name="t9"></td>
+		</tr>
+		<tr>
+			<td></td><td><input type="submit" value="Register" class="but1" onclick="ss()"></input></td>
+		</tr>
+		<tr>			
+			<td></td><td><b class="orr2">OR</b></td>
+		</tr>		
+		<tr>			
+			<td></td><td><a href="Project1.html" class="linc2">Cancel</a></td>
+		</tr>		
+	</table>
+	</form>
+	
+	</div>
+	</center>
+</body>
+</html>

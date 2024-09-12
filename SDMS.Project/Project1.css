@@ -1,0 +1,87 @@
+
+*{
+		margin: 0px;
+		padding: 0px;
+}
+.header{
+		background-color: black;
+		color: white;
+		padding: 20px;
+		text-align: center;
+		border-radius: 10px 10px 0 0;
+}
+.container{
+		background-color: black;
+		border-style: solid;
+		border-color: black;
+		display: inline-block;
+		margin-top: 150;
+		margin-left: 500;
+		padding: 30px;
+		border-radius: 0 40px 0 40px;
+}		
+.tex,.pass{
+		margin: 8px;
+		padding: 8px;
+}
+.but1,.but2{
+		background-color: white;
+		color: black;	
+		margin: 8px;
+		padding: 8px;
+		border-radius: 10%;
+}
+.orr{
+		position: relative;
+		left: 20%;
+		margin: 8px;
+		padding: 8px;
+		color: red;
+}
+.linc{
+		position: relative;
+		left: 12%;
+		margin: 8px;
+		padding: 8px;
+		color: gray;
+}
+.tab{
+		color: white
+}
+.linc:hover{
+
+		color: white;
+}
+.head{
+		padding: 30px;
+		text-align: center;
+
+}
+.container2{
+		border-style: solid;
+		border-color: black 30%;
+		padding: 30px;
+		border-radius: 50px;
+		background-color: black;
+		color: white;		
+}
+
+.orr2{
+		position: relative;
+		left: 8%;
+		margin: 8px;
+		padding: 8px;
+		color: red;
+}
+.linc2{
+		position: relative;
+		left: 5%;
+		margin: 8px;
+		padding: 8px;
+		color: gray;
+}
+.linc2:hover{
+
+		color: white;
+}
+

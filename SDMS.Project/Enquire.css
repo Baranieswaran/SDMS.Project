@@ -1,0 +1,126 @@
+
+*{
+		margin: 0px;
+		padding: 0px;
+}
+
+body{
+		background-color: D4E6F1;
+		
+
+}
+.header{
+		background-color: #1F618D;
+		color: white;
+		padding: 20px;
+		border-radius: 10px 10px 0 0;
+		display: flex;
+		justify-content: space-between;
+}
+.header a{
+		color: white;
+		text-decoration: none;
+		font-size: 20px;
+}
+
+.header a:hover{
+		color: red;
+}
+
+.head{
+		text-align: center;
+		color: #D35400;
+		padding: 5px;
+		font-size : 20px;
+}
+
+.cal table{
+		position: absolute;		
+		left: 67%;
+		top: 38%;
+}
+
+.container{
+		background-color: #1F618D;
+		color: white;
+		border-style: solid;
+		border-color: black;
+		display: inline-block;
+		padding: 20px;	
+		border-radius: 0 40px 0 40px;
+}
+
+.container table{
+		color: white;
+		
+}
+.tex{
+		margin: 8px;
+		padding: 8px;
+}
+.textarea{
+		margin: 8px;
+		padding: 8px;
+		height: 100px;
+		width: 400px;
+}
+
+.container input{
+		background-color : transparent;
+		font-size : 25px;
+		border: none;
+		border-bottom: solid black 2px;	
+}
+
+.container button{
+		background-color : white;
+		margin : 5px;
+		padding: 10px;
+		border : none;
+		border-radius : 10px;
+		font-size : 20px;
+		color : black;
+}
+
+.container2{
+		background-color: #1F618D;
+		color: white;
+		border-style: solid;
+		border-color: black;
+		display: inline-block;
+		padding: 10px;	
+		margin-top: 150;
+		margin-left: 450;
+		border-radius: 0 40px 0 40px;
+}
+
+.container2 button{
+		background-color : white;
+		margin : 5px;
+		padding: 10px;
+		border : none;
+		border-radius : 10px;
+		font-size : 18px;
+		color : black;
+		position: relative;
+		left: 150px;
+}
+
+.container2 input{
+		background-color : transparent;
+		font-size : 25px;
+		border: none;
+		border-bottom: solid black 2px;	
+		
+}
+
+.container2 h2{
+		position: relative;
+		left: 50px;
+}
+
+.container2 table{
+		color: white;
+		font-size: 20px;
+		padding: 10px;
+}

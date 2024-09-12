@@ -1,0 +1,71 @@
+<html>
+
+<head><title>Regiter</title></head>
+
+	<link rel="stylesheet" href="Enquire.css">
+<script>
+	function ss()
+	{		
+		f1.action="http://desktop-0vjq3va:8080/examples/servlets/servlet/Samp3";
+		f1.method="post";
+		f1.submit();
+	}
+</script>
+
+<body>
+
+	<div class="header">
+	  <h1 class="logo">Hykin Software Acadamy</h1>
+	  <a href="Home.html"><b>&#8592 Back</b></a>	
+	</div>
+	
+	<div class="head">
+		<h1>Hykin Tech Software Academy</h1>
+		<h3>NO:75/210, 1st Floor, Arcot Road, Porur, Chennai-116.</h3>
+		<h3>PH:044-48626384, 8526499291.</h3>
+	<br>
+	<hr>
+	<h2>Enquire Form</h2>		
+	</div>		
+	
+<form name="f1">		
+	<div class="cal">
+		<table>
+		<tr>
+			<td><b>Date</b></td><td><input type="date" class="tex" name="t1"></td>
+		</tr>
+		</table>
+	</div>
+	<br>
+	<br>
+	
+	<center>
+	<div class="container">
+	<table>
+		<tr>
+			<td><b>Name</b></td><td><input type="text" placeholder="Enter the name" class="tex" name="t2"></td><td><b>Qualification</b></td><td><input type="text" class="tex" name="t5"></td>
+		</tr>
+		<tr>
+			<td><b>Father Name</b></td><td><input type="text" placeholder="Enter the Fname" class="tex" name="t3"></td><td><b>Contact No</b></td><td><input type="number" class="tex" name="t6"></td>
+		</tr>
+		<tr>
+			<td><b>Address</b></td><td><input type="text" placeholder="Write Address" class="tex" name="t4"></td><td><b>Current Status</b></td><td><input type="text" class="tex" name="t7"></td>
+		</tr>
+		<tr>
+			<td><b>How did you know:</b></td><td><input type="radio" value="Board" name="t8" class="tex">Board<input type="radio" value="Just-dial" name="t8" class="tex">Just-dial<input type="radio" value="Poster" name="t8" class="tex">Poster<input type="radio" value="Phone-Call" name="t8" class="tex">Phone-Call<input type="radio" value="Gendral" name="t8" class="tex">Gendral<input type="radio" value="Website" name="t8" class="tex">Website<input type="radio" value="References" name="t8" class="tex">References</td>
+		</tr>
+		<tr>
+			<td><b>Requirements</b></td><td><input type="text" class="tex" name="t9"></td>
+		</tr>
+		<tr>
+			<td><b>Remark</b></td><td><textarea placeholder="Short Descreption"  name="t10" class="textarea"></textarea></td>
+		</tr>
+		<tr>
+			<td></td><td><button onclick="ss()">SAVE</button></td><td><button>CANCEL</button></td>
+		</tr>
+		  
+		</table>		
+		</center>
+		</form>	
+</body>
+</html>
